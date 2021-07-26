@@ -1,3 +1,5 @@
+// Package for logging program process
+// This's example of package documentation
 package logger
 
 import (
