@@ -13,6 +13,7 @@ type Logger struct {
 }
 
 // Get instance of logger
+// Example for change doc
 func Instance(timeFormat string, debug bool) *Logger {
 	return &Logger{
 		timeFormat: timeFormat,
