@@ -1,4 +1,4 @@
-// Package for logging program process
+// Package logger for logging program process
 // This's example of package documentation
 package logger
 
@@ -12,7 +12,7 @@ type Logger struct {
 	debug      bool
 }
 
-// Get instance of logger
+// Instance function get instance of logger
 // Example for change doc
 func Instance(timeFormat string, debug bool) *Logger {
 	return &Logger{
@@ -21,7 +21,7 @@ func Instance(timeFormat string, debug bool) *Logger {
 	}
 }
 
-// Write log in instance
+// Log function write log in instance
 func (l Logger) Log(level string, s string) {
 	switch level {
 	case "info", "warning":
