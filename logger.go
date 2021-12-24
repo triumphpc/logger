@@ -1,5 +1,6 @@
 // Package logger for logging program process
 // This's example of package documentation
+// Add new information
 package logger
 
 import (
@@ -21,7 +22,7 @@ func Instance(timeFormat string, debug bool) *Logger {
 	}
 }
 
-// Log function write log in instance. That is new comment for go doc
+// Log function write log in instance.
 func (l Logger) Log(level string, s string) {
 	switch level {
 	case "info", "warning":
