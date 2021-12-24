@@ -21,7 +21,7 @@ func Instance(timeFormat string, debug bool) *Logger {
 	}
 }
 
-// Log function write log in instance
+// Log function write log in instance. That is new comment for go doc
 func (l Logger) Log(level string, s string) {
 	switch level {
 	case "info", "warning":
